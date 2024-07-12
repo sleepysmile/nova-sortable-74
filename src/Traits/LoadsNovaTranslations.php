@@ -8,7 +8,7 @@ use Illuminate\Support\Str;
 use Laravel\Nova\Events\ServingNova;
 use Illuminate\Support\Facades\File;
 
-class LoadsNovaTranslations
+trait LoadsNovaTranslations
 {
     protected $packageTranslationsDir;
     protected $packageName;
